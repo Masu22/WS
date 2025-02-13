@@ -1,30 +1,37 @@
-���[�h�}�b�v�A���S�U���@�@T�@K�@���I��
-�T�O�T���t���[�`���[�g
-����md
-���m�K�C�h
-IUT.md
-��������
+IUT.mdを完成
+ロードマップ、完全攻略　　T　K　数オリ
+概念探索フローチャート ⇒例えば、SL2(Z)などの群論の構造を決定するときに、思考の順序や道具を整理しておく
+整数論、確率論、モンティーホール
+
+環論の次元に関する補題
+(dim(R[X]=dimR+1))
+(nonzerodivisor a, dim(R/(a))=dimR-1)
+(次元等式:https://math.stackexchange.com/questions/49136/is-operatornameheight-mathfrakp-dim-a-mathfrakp-dim-a-true)
+
+いんしmd
+入塾ガイド
+次元等式
 
 
 
-���w�P��
-�����\
-�m�̏Љ�A���ȏЉ�
+中学単元
+料金表
+塾の紹介、自己紹介
 
-����������i���َq�l�ߍ��킹�ȂǃC�x���g�A�����Ɍ��������b�Z�[�W�A�C�e���j
-�w�Z������̂������݁A�m�����A���k�X�P�W���[���u
-
-
-���w�����ȏ�
-���󌱑΍�
+おもしろ企画（お菓子詰め合わせなどイベント、入試に向けたメッセージアイテム）
+学校説明会のききこみ、塾日程、生徒スケジュール「
 
 
-��֑�w cf. ���I��
+小学生教科書
+中受験対策
 
 
-youtube�`�����l�������@�ˉp��^�X�N
-�T�C�����̃C�L���p�ꋳ��
+難関大学 cf. 数オリ
+
+
+youtubeチャンネル整理　⇒英語タスク
+サイモンのイキれる英語教室
 https://www.youtube.com/watch?app=desktop&v=aVftfsDce7A
 
-�}���`�[�Y�搶�̂₳�������吔�w
+マルチーズ先生のやさしい東大数学
 https://www.youtube.com/@%E3%83%9E%E3%83%AB%E3%83%81%E3%83%BC%E3%82%BA%E5%85%88%E7%94%9F%E3%81%AE%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E6%9D%B1%E5%A4%A7%E6%95%B0/videos
