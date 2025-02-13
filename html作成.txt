@@ -4,7 +4,7 @@ IUT.mdを完成
 整数論、確率論、モンティーホール
 
 環論の次元に関する補題
-(dim(R[X]=dimR+1))
+(dim(R[X]=dimR+1))⇒gpt
 (nonzerodivisor a, dim(R/(a))=dimR-1)
 (次元等式:https://math.stackexchange.com/questions/49136/is-operatornameheight-mathfrakp-dim-a-mathfrakp-dim-a-true)
 
@@ -30,11 +30,3 @@ IUT.mdを完成
 
 
 難関大学 cf. 数オリ
-
-
-youtubeチャンネル整理　⇒英語タスク
-サイモンのイキれる英語教室
-https://www.youtube.com/watch?app=desktop&v=aVftfsDce7A
-
-マルチーズ先生のやさしい東大数学
-https://www.youtube.com/@%E3%83%9E%E3%83%AB%E3%83%81%E3%83%BC%E3%82%BA%E5%85%88%E7%94%9F%E3%81%AE%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E6%9D%B1%E5%A4%A7%E6%95%B0/videos
