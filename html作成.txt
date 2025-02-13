@@ -8,6 +8,9 @@ IUT.mdを完成
 (nonzerodivisor a, dim(R/(a))=dimR-1)
 (次元等式:https://math.stackexchange.com/questions/49136/is-operatornameheight-mathfrakp-dim-a-mathfrakp-dim-a-true)
 
+収束空間について
+位相群の連続表現の同値な定義(有限次元ではok、無限次元では反例あり！、数学のたのしみの記事との整合性は？)
+
 いんしmd
 入塾ガイド
 次元等式
