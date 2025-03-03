@@ -1,32 +1,12 @@
-IUT.mdを完成
-ロードマップ、完全攻略　　T　K　数オリ
-概念探索フローチャート ⇒例えば、SL2(Z)などの群論の構造を決定するときに、思考の順序や道具を整理しておく
-整数論、確率論、モンティーホール
-
-環論の次元に関する補題
-(dim(R[X]=dimR+1))⇒gpt
-(nonzerodivisor a, dim(R/(a))=dimR-1)
-(次元等式:https://math.stackexchange.com/questions/49136/is-operatornameheight-mathfrakp-dim-a-mathfrakp-dim-a-true)
-
-収束空間について
-位相群の連続表現の同値な定義(有限次元ではok、無限次元では反例あり！、数学のたのしみの記事との整合性は？)
-
-いんしmd
-入塾ガイド
-次元等式
+���[�h�}�b�v�A���S�U���@�@T�@K�@���I��
+�T�O�T���t���[�`���[�g
+����md
 
 
+��������
 
-中学単元
-料金表
-塾の紹介、自己紹介
+����������i���َq�l�ߍ��킹�ȂǃC�x���g�A�����Ɍ��������b�Z�[�W�A�C�e���j
+�w�Z������̂������݁A�m�����A���k�X�P�W���[���u
 
-おもしろ企画（お菓子詰め合わせなどイベント、入試に向けたメッセージアイテム）
-学校説明会のききこみ、塾日程、生徒スケジュール「
-
-
-小学生教科書
-中受験対策
-
-
-難関大学 cf. 数オリ
+���w�����ȏ�
+���󌱑΍�
