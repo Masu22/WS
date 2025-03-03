@@ -1,11 +1,11 @@
-#ƒQ[ƒ€‚Ìƒgƒbƒvƒy[ƒW‚©‚çAƒ‚ƒfƒ‹‚Ìƒ_ƒEƒ“ƒ[ƒhƒAƒhƒŒƒX‚ð¶¬‚·‚é
+#ã‚²ãƒ¼ãƒ ã®ãƒˆãƒƒãƒ—ãƒšãƒ¼ã‚¸ã‹ã‚‰ã€ãƒ¢ãƒ‡ãƒ«ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆã™ã‚‹
 #$url="https://www.models-resource.com/nintendo_64/supermario64/"
 #$url="https://www.models-resource.com/pc_computer/outlast/"
 
-#ƒQ[ƒ€‚Ìƒgƒbƒvƒy[ƒW‚ÌƒŠƒXƒg‚ð“ü—Í
+#ã‚²ãƒ¼ãƒ ã®ãƒˆãƒƒãƒ—ãƒšãƒ¼ã‚¸ã®ãƒªã‚¹ãƒˆã‚’å…¥åŠ›
 $list=get-content modre.txt
 
-#DL—p‚ÌƒwƒbƒhƒAƒhƒŒƒX
+#DLç”¨ã®ãƒ˜ãƒƒãƒ‰ã‚¢ãƒ‰ãƒ¬ã‚¹
 $head="https://www.models-resource.com/download/"
 
 foreach($url in $list){
@@ -14,7 +14,7 @@ $Link=$page.Links.href|Where-object {$_ -like "*/model/*"}
 
 $G=@()
 
-#Šeƒ‚ƒfƒ‹ƒy[ƒW‚ÌƒAƒhƒŒƒX‚ðŽæ“¾
+#å„ãƒ¢ãƒ‡ãƒ«ãƒšãƒ¼ã‚¸ã®ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å–å¾—
 foreach($k in $Link){
  $a=$k.split("/")
  $head+$a[-2]+"/" >>ddll.txt 
