@@ -1,25 +1,25 @@
-#Chrome‚ÅƒAƒhƒŒƒX‚ğŠJ‚¢‚ÄA©“®ƒ_ƒEƒ“ƒ[ƒh
+#Chromeã§ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’é–‹ã„ã¦ã€è‡ªå‹•ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
 
-# URLƒŠƒXƒg‚ÌƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚ÌƒpƒX
+# URLãƒªã‚¹ãƒˆã®ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹
 $urlsFile = "urls.txt"
 
-# Chrome‚ÌƒpƒXiƒfƒtƒHƒ‹ƒg‚ÌƒCƒ“ƒXƒg[ƒ‹æj
+# Chromeã®ãƒ‘ã‚¹ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å…ˆï¼‰
 $chromePath = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
-# ƒGƒ‰[ƒƒOƒtƒ@ƒCƒ‹‚ÌƒpƒX
+# ã‚¨ãƒ©ãƒ¼ãƒ­ã‚°ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹
 $errorLog = "error_log.txt"
 
-# ƒGƒ‰[ƒƒO‚ğƒNƒŠƒAi‘O‰ñ‚ÌÀsŒ‹‰Ê‚ğÁ‚·j
+# ã‚¨ãƒ©ãƒ¼ãƒ­ã‚°ã‚’ã‚¯ãƒªã‚¢ï¼ˆå‰å›ã®å®Ÿè¡Œçµæœã‚’æ¶ˆã™ï¼‰
 Clear-Content -Path $errorLog -ErrorAction SilentlyContinue
 
-# URLƒŠƒXƒg‚ğ1s‚¸‚Â“Ç‚İ‚ñ‚Åˆ—
+# URLãƒªã‚¹ãƒˆã‚’1è¡Œãšã¤èª­ã¿è¾¼ã‚“ã§å‡¦ç†
 Get-Content $urlsFile | ForEach-Object {
     $url = $_.Trim()
-    if ($url -ne "") {  # ‹ós‚ğƒXƒLƒbƒv
+    if ($url -ne "") {  # ç©ºè¡Œã‚’ã‚¹ã‚­ãƒƒãƒ—
         Write-Host "Opening: $url"
         try {
             Start-Process -FilePath $chromePath -ArgumentList $url -ErrorAction Stop
-            Start-Sleep -Seconds 15  # ƒ_ƒEƒ“ƒ[ƒh‘Ò‹@ŠÔi•K—v‚È‚ç’²®j
+            Start-Sleep -Seconds 15  # ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰å¾…æ©Ÿæ™‚é–“ï¼ˆå¿…è¦ãªã‚‰èª¿æ•´ï¼‰
         } catch {
             $errorMessage = "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] Error opening $url : $_"
             Write-Host $errorMessage
