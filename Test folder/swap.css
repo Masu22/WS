@@ -1,0 +1,19 @@
+/* まず、どちらも非表示にしておく（初期状態） */
+.pc-only,
+.mobile-only {
+  display: none;
+}
+
+/* PC画面用：幅が769px以上のときだけ .pc-only を表示 */
+@media screen and (min-width: 769px) {
+  .pc-only {
+    display: block;
+  }
+}
+
+/* モバイル画面用：幅が768px以下のときだけ .mobile-only を表示 */
+@media screen and (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+}
